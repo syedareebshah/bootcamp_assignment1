@@ -15,4 +15,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ F:\Bootcamp\Assignments\bootcamp_assignment1\.github\workflows_syedareebshah.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ bootcamp_setup_syedareebshah.surge.sh --token ${{ secrets.SURGE_TOKEN }}
